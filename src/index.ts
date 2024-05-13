@@ -52,8 +52,8 @@ const bootstrap = async () => {
     //最后输出
     console.log(`
     cd ${result.projectName}
-    pnpm i
-    pnpm run dev
+    npm i
+    npm run dev
     `)
 };
 bootstrap();
